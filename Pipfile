@@ -1,0 +1,11 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "2.0.2"
+flask-cors = "3.0.10"
+psutil = "5.9.0"
+requests = "2.27.1"
+twitchio = "2.1.4"

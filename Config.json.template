@@ -1,0 +1,12 @@
+{
+    "client_id": "Twitch Client ID",
+    "client_secret": "Twitch Client Secret",
+    "access_token": "Twitch Access Token",
+    "cookie": {
+        "persistent": "Twitch Login Cookie"
+    },
+    "target_dir": "D:\\Path\\To\\VOD\\Directory",
+    "broadcaster_id": "Channel ID",
+    "timer": 60,
+    "title_fmt": "VOD Name: %s"
+}
