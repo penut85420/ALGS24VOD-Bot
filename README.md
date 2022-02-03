@@ -13,6 +13,7 @@
 + `message_timer` 在聊天室推播訊息的時間間隔，單位為秒
 + `title_fmt` 是標題格式，使用 `%s` 代表檔案名稱要擺的位置
 + `message_fmt` 要推播到聊天室的訊息格式，使用 `%s` 代表檔案名稱要擺的位置
++ `media_player` 設定想要使用的媒體播放器，例如 PotPlayer 或 VLC 等等
 
 ## 授權
 本軟體使用 MIT 授權條款

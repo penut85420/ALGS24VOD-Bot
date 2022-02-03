@@ -68,7 +68,8 @@ class ALGS24VOD(commands.Bot):
         while self.channel is None:
             await self.join_channels([self.config["broadcaster_id"]])
             self.channel = self.get_channel(self.config["broadcaster_id"])
-        self._title = CheckVOD().check_dir(self.config["target_dir"])
+        media_player = self.config["media_player"]
+        self._title = CheckVOD(media_player).check_dir(self.config["target_dir"])
 
 
 def main():

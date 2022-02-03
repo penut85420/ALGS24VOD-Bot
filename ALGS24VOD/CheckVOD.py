@@ -4,11 +4,12 @@ import psutil
 
 
 class CheckVOD:
-    def __init__(self):
-        self.process = self.locate()
+    def __init__(self, media_player):
+        self.process = self.locate(media_player)
         self.refresh()
 
-    def locate(self, name="potplayer"):
+    def locate(self, name):
+        name = name.lower()
         pid = None
 
         for proc in psutil.process_iter():
